@@ -1,0 +1,18 @@
+# 授業用の robots.txt。解説: /jissen-webdata-lecture/robots-guide.html
+# 星野原大学案内の private は拒否例であり、機密情報を置かない。
+User-agent: *
+Disallow: /jissen-webdata-lecture/private/
+Crawl-delay: 5
+
+# 特定の架空ボットを拒否する例
+User-agent: BadPracticeBot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
